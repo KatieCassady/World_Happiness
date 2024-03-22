@@ -1,12 +1,12 @@
 # World Happiness and COVID
 Capstone project for CodeLouisville Data Analysis Course
 
-This project will compare the World Happiness Report for 2015, 2020, & 2022 (https://www.kaggle.com/datasets/mathurinache/world-happiness-report?resource=download) to look for a correlation between countries happiness level with their trust in their government pre-, during, & post-COVID.
+This project will compare the World Happiness Report for 2015 to 2022 (https://www.kaggle.com/datasets/mathurinache/world-happiness-report?resource=download) to look for a correlation between countries happiness level with their trust in their government and freedom to make life choices over before, during, and post-COVID.
 
 Instructions
 1. Clone the repo to your machine
 2. Create a virtual environment and install the packages listed in the requirements.txt
-3. Remove columns that are unique to different years: 
+3. Remove columns that are unique to different years or I know I don't plan to use. Most are standard deviations: 
 2015 - Standard
 	Region
 	Dystopia Residual
@@ -43,8 +43,11 @@ Instructions
 	Dystopia + residual
 2022 - Whisker-high
 	Whisker-low
-4. Create bar graphs showing happiness score and government trust for years 2015 (pre-COVID), 2020 (During COVID), & 2022 (Post-COVID).
-5. Create graph showing comparision of all 3 years.
+4. Create a dictionary of all years combined
+5. Combine dataframes and concatinate
+6. Replace and N/A or blank spaces with 0
+7. Create pivot tables for Happiness Score, Trust, and Freedom
+8. Generate visualizations with matplotlib for a high happiness country (Switzerland), a midrange country (Turkey), and a low happiness country (Togo). Including the United States as well as a home comparison.
 
 Virtual Environment Instructions
 1. After you have cloned the repo to your machine, navigate to the project folder in GitBash/Terminal
