@@ -18,7 +18,7 @@ You have installed Git, which is necessary to clone the repository. If you don't
 
 *It's recommended to create a virtual environment to keep the project's dependencies isolated from your system's Python environment. You can create a virtual environment using the following command:*  
 
-On Windows:  python -m venv venv  
+On Windows:    
 On macOS and Linux: python3 -m venv venv  
 This will create a new virtual environment named venv in your current directory.  
 
